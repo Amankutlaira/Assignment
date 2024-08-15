@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Web Assignment</h1>
+    </header>
+    <section class="container">
+      <h2>Watch This Video</h2>
+      <video controls>
+        <source src="/videoplayback.mp4" type="video/mp4" />
+      </video>
+    </section>
+    <section class="container">
+      <h2>Sign Up Form</h2>
+      <form>
+        <div class="form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="form">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form">
+          <label for="password">Password</label>
+          <input type="password" />
+        </div>
+        <div class="form">
+          <label for="department">Department</label>
+          <select name="department" id="department">
+            <option value="engineering">Engineering</option>
+            <option value="mba">MBA</option>
+            <option value="sales">Sales</option>
+            <option value="hr">HR</option>
+          </select>
+        </div>
+        <div class="form">
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+      </form>
+    </section>
+    <section class="container">
+      <h2>User Details</h2>
+      <table>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Department</th>
+          <th>Gender</th>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="/cartoon-superhero-illustration_23-2151732523.jpg"
+              alt="Image1"
+            />
+          </td>
+          <td>Joe Man</td>
+          <td>super@hh.com</td>
+          <td>Engineering</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="/cartoon-superhero-illustration_23-2151732539.jpg"
+              alt="Image2"
+            />
+          </td>
+          <td>Super man</td>
+          <td>batmen@gg.com</td>
+          <td>Sales</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="/cartoon-superhero-illustration_23-2151732563.jpg"
+              alt="Image3"
+            />
+          </td>
+          <td>Girl MAN</td>
+          <td>gitll@gmail,ocm</td>
+          <td>HR</td>
+          <td>Female</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
