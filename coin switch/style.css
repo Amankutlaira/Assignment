@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav > img {
+  width: 180px;
+  height: 60px;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+ul {
+  margin-right: 200px;
+}
+
+li {
+  display: inline-flex;
+  list-style: none;
+  margin-right: 50px;
+  font-size: 20px;
+}
+li > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+  padding: 18px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #b1e50e;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec1 {
+  margin-left: 20%;
+  margin-top: 7%;
+  margin-right: 20%;
+}
+
+.sec1 img {
+  width: 15%;
+}
+
+.pp1 {
+  font-size: 80px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 35px;
+}
+
+.pp2 {
+  font-size: 80px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -70px;
+  color: #1d7786;
+}
+
+.pp3 {
+  margin-top: -40px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 520;
+}
+
+.sec1 > button {
+  padding: 15px 45px;
+  font-size: 15px;
+  font-weight: 700px;
+  border: none;
+  color: whitesmoke;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.sec2 {
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.cont1 {
+  display: flex;
+}
+.para {
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.pp4 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pp5 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
